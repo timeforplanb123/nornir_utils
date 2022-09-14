@@ -55,6 +55,7 @@ jobs:
         uses: snok/install-poetry@v1
         with:
           virtualenvs-path: ~/.virtualenvs
+          version: 1.1.15
 
       - name: Cache Poetry virtualenv
         uses: actions/cache@v1
